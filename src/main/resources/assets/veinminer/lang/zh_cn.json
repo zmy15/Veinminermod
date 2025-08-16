@@ -44,5 +44,6 @@
   "item.veinminer.rubert_empire_mechanical_cogwheel": "鲁伯特帝国机械齿轮",
   "item.veinminer.nianxi_block": "念熙",
   "block.veinminer.nianxi_block": "念熙",
-  "itemGroup.veinminer.item_group": "Veinminer"
+  "itemGroup.veinminer.item_group": "Veinminer",
+  "key.veinminer.activate": "连锁绑定"
 }

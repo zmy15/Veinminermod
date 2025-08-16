@@ -14,7 +14,7 @@ public class KeyBindings {
                 "key.veinminer.activate",
                 InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_GRAVE_ACCENT, // ~键
-                "category.veinminer"
+                "连锁采集"
             ));
         }
 }

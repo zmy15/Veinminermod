@@ -44,5 +44,6 @@
   "item.veinminer.rubert_empire_mechanical_cogwheel": "Rubert Empire Mechanical Cogwheel",
   "item.veinminer.nianxi_block": "Nianxi Block",
   "block.veinminer.nianxi_block": "Nianxi Block",
-  "itemGroup.veinminer.item_group": "Veinminer"
+  "itemGroup.veinminer.item_group": "Veinminer",
+  "key.veinminer.activate": "Activate Veinminer"
 }

@@ -24,7 +24,8 @@ public class Veinminermod implements ModInitializer {
 		PlayerBlockBreakEvents.AFTER.register((world, player, pos, state, blockEntity) -> {
 			if (VeinMiner.shouldTrigger(world, player, pos, state)) {
 				Veinminermod.LOGGER.info("触发挖掘");
-				VeinMiner.mineVein(world, player, pos, state.getBlock());
+				boolean damage = !VeinMiner.isNoSuitableTools(state);
+				VeinMiner.mineVein(world, player, pos, state.getBlock(), damage ,true);
 			}
 		});
 

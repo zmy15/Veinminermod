@@ -37,7 +37,7 @@ public class VeinMiner {
             int age = state.get(SweetBerryBushBlock.AGE);
             if (age >= 2) { // 只有成熟的浆果才能触发
                 Veinminermod.LOGGER.info("触发甜浆果连锁采集");
-                VeinMiner.mineVein(world, player, pos, state.getBlock());
+                VeinMiner.mineVein(world, player, pos, state.getBlock(), false, false);
                 return true;
             }
         }
@@ -69,7 +69,7 @@ public class VeinMiner {
         return isAllowedBlock(state);
     }
 
-    public static void mineVein(World world, PlayerEntity player, BlockPos startPos, Block targetBlock) {
+    public static void mineVein(World world, PlayerEntity player, BlockPos startPos, Block targetBlock, boolean damage, boolean isBreak) {
         Veinminermod.LOGGER.info(String.format("开始连锁:%s",targetBlock.getName().getString()));
         Veinminermod.LOGGER.info(String.format("方块位置:%s",startPos.toShortString()));
         // 记录使用时间
@@ -90,7 +90,7 @@ public class VeinMiner {
             BlockState state = world.getBlockState(pos);
             Veinminermod.LOGGER.info(String.format("出队方块:%s", state.getBlock().getName().getString()));
             // 处理甜浆果丛
-            if (targetBlock == Blocks.SWEET_BERRY_BUSH)
+            if (!isBreak)
             {
                 int age = state.get(SweetBerryBushBlock.AGE);
                 if (age >= 2) {
@@ -119,7 +119,10 @@ public class VeinMiner {
                     for (ItemStack drop : drops) {
                         Block.dropStack(world, pos, drop);
                     }
-                    tool.damage(1, player);
+
+                    if (damage) {
+                        tool.damage(1, player);
+                    }
                     count++;
                 }
             }
