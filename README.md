@@ -1,0 +1,2 @@
+# Veinminermod
+适用于Minecraft-Java版fabric端的连锁采集mod
