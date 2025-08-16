@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.veinminer.hope_is_the_thing_with_feathers"
+  },
+  "length_in_seconds": 230.0,
+  "sound_event": "veinminer:robin.hope_is_the_thing_with_feathers"
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "veinminer:root",
+  "criteria": {
+    "get_primogems": {
+      "conditions": {
+        "items": [
+          {
+            "items": "veinminer:primogems"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.mihoyo.primogems.description"
+    },
+    "icon": {
+      "count": 2,
+      "id": "veinminer:primogems"
+    },
+    "title": {
+      "translate": "advancements.mihoyo.primogems.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_primogems"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

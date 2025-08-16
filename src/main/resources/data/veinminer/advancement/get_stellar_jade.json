@@ -1,0 +1,33 @@
+{
+  "parent": "veinminer:get_primogems",
+  "criteria": {
+    "get_stellar_jade": {
+      "conditions": {
+        "items": [
+          {
+            "items": "veinminer:stellar_jade"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.mihoyo.stellar_jade.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "veinminer:stellar_jade"
+    },
+    "title": {
+      "translate": "advancements.mihoyo.stellar_jade.title"
+    }
+  },
+  "requirements": [
+    [
+      "get_stellar_jade"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.veinminer.sway_to_my_beat_in_cosmos"
+  },
+  "length_in_seconds": 165.0,
+  "sound_event": "veinminer:robin.sway_to_my_beat_in_cosmos"
+}

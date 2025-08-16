@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.veinminer.if_i_can_stop_one_heart_from_breaking"
+  },
+  "length_in_seconds": 202.0,
+  "sound_event": "veinminer:robin.if_i_can_stop_one_heart_from_breaking"
+}

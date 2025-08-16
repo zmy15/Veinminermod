@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "veinminer:item/hope_is_the_thing_with_feathers"
+  }
+}

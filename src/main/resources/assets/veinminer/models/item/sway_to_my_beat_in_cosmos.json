@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "veinminer:item/sway_to_my_beat_in_cosmos"
+  }
+}

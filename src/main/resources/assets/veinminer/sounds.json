@@ -1,0 +1,98 @@
+{
+  "robin_place": {
+    "subtitle": "sound.veinminer.robin.place",
+    "sounds": [
+      "veinminer:robin_place"
+    ]
+  },
+    "robin_fall": {
+        "subtitle": "sound.veinminer.robin.fall",
+        "sounds": [
+        "veinminer:robin_fall"
+        ]
+    },
+    "robin_step": {
+        "subtitle": "sound.veinminer.robin.step",
+        "sounds": [
+        "veinminer:robin_step"
+        ]
+    },
+  "robin_hit": {
+    "subtitle": "sound.veinminer.robin.hit",
+    "sounds": [
+      "veinminer:robin_hit"
+    ]
+  },
+  "robin_break": {
+    "subtitle": "sound.veinminer.robin.break",
+    "sounds": [
+      "veinminer:robin_break"
+    ]
+  },
+  "robin.sway_to_my_beat_in_cosmos": {
+    "subtitle": "sound.veinminer.robin.sway_to_my_beat_in_cosmos",
+    "sounds": [
+      "veinminer:sway_to_my_beat_in_cosmos"
+    ]
+  },
+  "robin.if_i_can_stop_one_heart_from_breaking": {
+    "subtitle": "sound.veinminer.robin.if_i_can_stop_one_heart_from_breaking",
+    "sounds": [
+        "veinminer:if_i_can_stop_one_heart_from_breaking"
+    ]
+  },
+    "robin.hope_is_the_thing_with_feathers": {
+        "subtitle": "sound.veinminer.robin.hope_is_the_thing_with_feathers",
+        "sounds": [
+            "veinminer:hope_is_the_thing_with_feathers"
+        ]
+    },
+    "robin.had_i_not_seen_the_sun": {
+        "subtitle": "sound.veinminer.robin.had_i_not_seen_the_sun",
+        "sounds": [
+            "veinminer:had_i_not_seen_the_sun"
+        ]
+    },
+  "robin_sway_to_my_beat_in_cosmos": {
+    "subtitle": "sound.veinminer.robin.sway_to_my_beat_in_cosmos",
+    "sounds": [
+      "veinminer:sway_to_my_beat_in_cosmos"
+    ]
+  },
+  "robin_if_i_can_stop_one_heart_from_breaking": {
+    "subtitle": "sound.veinminer.robin.if_i_can_stop_one_heart_from_breaking",
+    "sounds": [
+      "veinminer:if_i_can_stop_one_heart_from_breaking"
+    ]
+  },
+  "robin_hope_is_the_thing_with_feathers": {
+    "subtitle": "sound.veinminer.robin.hope_is_the_thing_with_feathers",
+    "sounds": [
+      "veinminer:hope_is_the_thing_with_feathers"
+    ]
+  },
+  "robin_had_i_not_seen_the_sun": {
+    "subtitle": "sound.veinminer.robin.had_i_not_seen_the_sun",
+    "sounds": [
+      "veinminer:had_i_not_seen_the_sun"
+    ]
+  },
+  "nianxi_place": {
+    "subtitle": "sound.veinminer.nianxi.place",
+    "sounds": [
+      "veinminer:nianxi_place"
+    ]
+  },
+  "nianxi_break": {
+    "subtitle": "sound.veinminer.nianxi.break",
+    "sounds": [
+      "veinminer:nianxi_break"
+    ]
+  },
+  "we_are_the_champions": {
+    "subtitle": "sound.veinminer.we_are_the_champions",
+    "sounds": [
+      "veinminer:we_are_the_champions"
+    ]
+  }
+}

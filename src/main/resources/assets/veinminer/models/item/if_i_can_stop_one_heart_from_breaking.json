@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "veinminer:item/if_i_can_stop_one_heart_from_breaking"
+  }
+}

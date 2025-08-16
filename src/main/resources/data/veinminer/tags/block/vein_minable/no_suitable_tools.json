@@ -1,0 +1,14 @@
+{
+  "values": [
+    "minecraft:glowstone",
+    "#minecraft:crops",
+    "minecraft:nether_wart",
+    "minecraft:sweet_berry_bush",
+    "minecraft:cave_vines",
+    "minecraft:cave_vines_plant",
+    "minecraft:sugar_cane",
+    "minecraft:kelp",
+    "minecraft:kelp_plant",
+    "minecraft:torchflower"
+  ]
+}

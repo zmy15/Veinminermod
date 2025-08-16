@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "veinminer:rubert_empire_mechanical_piston",
+    "veinminer:rubert_empire_mechanical_lever",
+    "veinminer:rubert_empire_mechanical_cogwheel"
+  ],
+  "result": {
+    "id": "veinminer:rubert_empire_difference_machine",
+    "count": 1
+  }
+}

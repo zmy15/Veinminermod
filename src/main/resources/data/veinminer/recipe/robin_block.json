@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "veinminer:sway_to_my_beat_in_cosmos",
+    "veinminer:if_i_can_stop_one_heart_from_breaking",
+    "veinminer:hope_is_the_thing_with_feathers",
+    "veinminer:had_i_not_seen_the_sun"
+  ],
+  "result": {
+    "id": "veinminer:robin_block",
+    "count": 1
+  }
+}

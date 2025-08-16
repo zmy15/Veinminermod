@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "veinminer:block/robin_block"
+    }
+  }
+}

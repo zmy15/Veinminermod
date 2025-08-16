@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "crafting_table": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wheat"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "veinminer:gui/advancements/backgrounds/mihoyo",
+    "description": {
+      "translate": "advancements.mihoyo.root.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "veinminer:primogems"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.mihoyo.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "crafting_table"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

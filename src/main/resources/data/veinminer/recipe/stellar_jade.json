@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": "veinminer:primogems",
+  "result": {
+    "id": "veinminer:stellar_jade"
+  },
+  "experience": 0.4,
+  "cookingtime": 200
+}

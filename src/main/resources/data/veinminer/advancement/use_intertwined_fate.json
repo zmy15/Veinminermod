@@ -1,0 +1,36 @@
+{
+  "parent": "veinminer:get_primogems",
+  "criteria": {
+    "use_intertwined_fate": {
+      "conditions": {
+        "item": {
+          "items": "veinminer:intertwined_fate"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.mihoyo.use_intertwined_fate.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "veinminer:intertwined_fate"
+    },
+    "title": {
+      "translate": "advancements.mihoyo.use_intertwined_fate.title"
+    }
+  },
+  "requirements": [
+      [
+        "use_intertwined_fate"
+      ]
+  ],
+  "rewards": {
+    "experience": 150
+  },
+  "sends_telemetry_event": true
+}
