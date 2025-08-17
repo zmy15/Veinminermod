@@ -7,7 +7,7 @@ import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 public class ModItemTags {
-    //public static final TagKey<Item> VEIN_MINABLE = of("vein_minable");
+    public static final TagKey<Item> ROBIN_MUSIC_DISC = of("robin_music_disc");
 
     private ModItemTags() {
     }

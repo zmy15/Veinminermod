@@ -23,8 +23,8 @@ public class VeinMiner {
     public static boolean isAllowedBlock(BlockState state) {
         return state.isIn(ModBlockTags.VEIN_MINABLE);
     }
-    public static boolean isNoSuitableTools(BlockState state) {
-        return state.isIn(ModBlockTags.NO_SUITABLE_TOOLS);
+    public static boolean isSuitableTools(BlockState state) {
+        return !state.isIn(ModBlockTags.NO_SUITABLE_TOOLS);
     }
 
     public static boolean collect_SWEET_BERRY_BUSH(PlayerEntity player, World world, BlockHitResult hitResult, Hand hand)
@@ -60,7 +60,7 @@ public class VeinMiner {
 
         // 检查工具是否有效
         ItemStack tool = player.getMainHandStack();
-        if (!isNoSuitableTools(state) && !tool.isSuitableFor(state)) {
+        if (isSuitableTools(state) && !tool.isSuitableFor(state)) {
             Veinminermod.LOGGER.info("无效");
             return false;
         }
