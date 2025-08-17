@@ -1,5 +1,5 @@
 # Veinminermod
-适用于Minecraft-Java版fabric端的连锁采集mod~~（还夹带了一些私货）~~
+适用于Minecraft-Java版fabric端的连锁采集mod ~~(还夹带了亿些私货)~~
 
 
 当前分支版本Minecraft-Java1.21.6
